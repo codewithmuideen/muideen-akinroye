@@ -2,7 +2,10 @@ import { useEffect } from "react";
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-import profilePic from "../../public/images/profile/profile-pic.png";
+
+// Declare image path as a constant
+const profilePic = "/images/profile/profile-pic.png"; // Correct path
+
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
@@ -37,7 +40,7 @@ const Home = () => {
             {/* Profile Image */}
             <div className="items-center justify-center w-1/2 mb-4 mr-8 md:m-0 md:w-full">
               <Image
-                src={profilePic}
+                src={profilePic} // Using the constant here
                 alt="Muideen Akinroye"
                 className="w-full h-auto lg:hidden md:flex md:w-full"
                 priority
