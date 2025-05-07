@@ -29,7 +29,7 @@ const Home = () => {
           name="description"
           content="Explore the professional web development and software engineering services offered by Muideen Akinroye — crafting high-performance, user-focused websites and applications that drive results."
         />
-        <link rel="shortcut icon" href="../../public/favicon.ico"/>
+        {/* <link rel="shortcut icon" href="../../public/favicon.ico"/> */}
       </Head>
       <TransitionEffect />
       <main className="flex items-center w-full min-h-screen pt-16 mt-12 text-dark">
