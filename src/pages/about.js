@@ -67,7 +67,7 @@ const About = () => {
               Biography
             </h2>
             <p
-              className="font-medium text-justify"
+              className="font-medium"
               style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
               Hello, I'm Muideen Akinroye, a Certified Web Developer and Coding Instructor
@@ -78,7 +78,7 @@ const About = () => {
               technical precision and creative flair to every project.
             </p>
             <p
-              className="my-4 font-medium text-justify"
+              className="my-4 font-medium"
               style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
               A quick learner and problem-solving enthusiast, I am eager to tackle novel
