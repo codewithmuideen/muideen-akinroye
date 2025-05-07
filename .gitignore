@@ -1,33 +1,28 @@
 # Node.js dependencies
 node_modules/
 
-# Output of `next build`
+# Next.js build output
 .next/
 out/
 
-# Production
+# Environment variable files
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env.*.local
 
 # Logs
 logs/
 *.log
 
-# OS-specific files
+# Mac and Windows system files
 .DS_Store
 Thumbs.db
 
-# Editor directories and files
+# IDE/editor settings
 .vscode/
 .idea/
 *.swp
 
-# Optional npm cache directory
+# Optional cache directories
 .npm/
-
-# Optional yarn cache directory
 .yarn/
 .pnp.*
