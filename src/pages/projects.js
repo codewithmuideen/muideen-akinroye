@@ -138,29 +138,31 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProjects
-                type="Featured Project"
-                title="Linktree Clone | Social Media Links in One"
-                summary="This project is a clone of the popular Linktree platform, built using Next.js, MongoDB and Tailwind CSS. It allows users to create and manage their own personalized linktree pages🌟"
+                type="RoyeWeb Website"
+                title="Corperate website"
+                summary="Royeweb is a dynamic company specializing in mobile and web application development, project management, and training services. Our team of experts is dedicated to delivering cutting-edge solutions that drive innovation and efficiency. We offer comprehensive training programs to empower individuals and businesses with the skills needed to thrive in the digital era. At Royeweb, we turn your ideas into reality with precision and excellence. Let Olamitobi build your website and mobile app for you.
+                </title>"
                 img={project1}
-                link="https://github.com/codewithmuideen"
-                github="https://github.com/codewithmuideen"
+                link="https://royeweb.vercel.app/"
+                github="https://github.com/codewithmuideen/royeweb"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Project"
-                title="Gemini Ai Clone | Ai Chatbot"
-                summary="Gemini Clone is a project aimed at replicating the functionality of Gemini AI, powered by the Google Gemini API, using React JS + Vite JS and some CSS styling 🤖💻"
+                title="Shipping Website"
+                summary="C EXPRESS LOGISTICS LLC | C EXPRESS LOGISTICS LLC is your preferred Freight Forwarder. Offering a full
+                suite of Air, Ocean, Land and Customs Clearance services."
                 img={project2}
-                link="https:muideenakinroye.vercel.app/"
+                link="https://cexpresslogisticsllc.com/"
                 github="https://github.com/codewithmuideen"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Project"
-                title="Cryptoverse | Crypto Currency Marketplace"
-                summary="Cryptoverse | Crypto Currencies API provides real-time prices about crypto currencies. The webapp have several pages. This project was made with React JS and Tailwind CSS."
+                title="FinCompitium Website"
+                summary="Empowering financial institutions with advanced artificial intelligence to automate decision-making, enhance fraud detection, optimize investment strategies, and deliver personalized financial solutions. FinCompitium integrates predictive analytics, natural language processing, and real-time data insights to revolutionize how finance operates—smarter, faster, and more secure."
                 img={project3}
                link="https:muideenakinroye.vercel.app/"
                 github="https://github.com/codewithmuideen"
