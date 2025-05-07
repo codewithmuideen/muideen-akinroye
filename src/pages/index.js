@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-import profilePic from "../../public/images/profile/profile-pic.png";
+import profilePic from "../../public/images/profile/profile-pic.PNG";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
