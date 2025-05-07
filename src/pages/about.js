@@ -11,7 +11,8 @@ import TransitionEffect from "@/components/TransitionEffect";
 import Link from "next/link";
 
 // Use string path for public images
-const profilePic = "/images/profile/profile-pic-1.png";
+// const profilePic = "/images/profile/profile-pic-1.png";
+import profilePic from "../../public/images/projects/royeweb.jpg";
 
 const stats = [
   {
