@@ -29,21 +29,23 @@ const Home = () => {
           name="description"
           content="Explore the professional web development and software engineering services offered by Muideen Akinroye — crafting high-performance, user-focused websites and applications that drive results."
         />
-        {/* <link rel="shortcut icon" href="../../public/favicon.ico"/> */}
       </Head>
       <TransitionEffect />
       <main className="flex items-center w-full min-h-screen pt-16 mt-12 text-dark">
         <Layout className="pt-0 md:pt-16 sm:pt-8">
           <div className="flex items-center justify-center w-full lg:flex-col">
+            {/* Profile Image */}
             <div className="items-center justify-center w-1/2 mb-4 mr-8 md:m-0 md:w-full">
               <Image
                 src={profilePic}
                 alt="Muideen Akinroye"
-                className="items-center w-full h-auto lg:hidden md:flex md:w-full"
+                className="w-full h-auto lg:hidden md:flex md:w-full"
                 priority
-                sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw, 50vw object-fit"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
               />
             </div>
+
+            {/* Text Content */}
             <div className="flex flex-col text-center items-center w-1/2 lg:w-full lg:text-center">
               <h1
                 style={{ fontFamily: "'Montserrat', sans-serif" }}
@@ -51,9 +53,9 @@ const Home = () => {
               >
                 <Typewriter
                   words={[
-                    'Turning Vision Into Reality With Code And Design.',
-                    'Passionate Frontend Web Developer',
-                    'Passionate Software Engineer'
+                    "Turning Vision Into Reality With Code And Design.",
+                    "Passionate Frontend Web Developer",
+                    "Passionate Software Engineer",
                   ]}
                   loop={0}
                   cursor
@@ -63,12 +65,19 @@ const Home = () => {
                   delaySpeed={2000}
                 />
               </h1>
+
               <p
                 style={{ fontFamily: "'Montserrat', sans-serif" }}
                 className="my-4 !text-left self-center text-base font-medium md:text-sm sm:text-xs"
               >
-                I&#39;m a passionate front-end web developer, blending creativity and technology to craft stunning websites that feel like they&#39;re from another dimension. Explore my projects to see how I harness the power of technologies to give better user experiences that are truly out of this world! Let&#39;s turn ideas into reality, one pixel at a time!
+                I&#39;m a passionate front-end web developer, blending creativity
+                and technology to craft stunning websites that feel like they&#39;re
+                from another dimension. Explore my projects to see how I harness the
+                power of technologies to give better user experiences that are truly
+                out of this world! Let&#39;s turn ideas into reality, one pixel at a
+                time!
               </p>
+
               <div className="flex flex-wrap items-center self-start mt-2 md:flex-col md:gap-2 lg:self-center">
                 <Link
                   style={{ fontFamily: "'Montserrat', sans-serif" }}
@@ -85,7 +94,6 @@ const Home = () => {
         </Layout>
 
         {/* Tawk.to will automatically show the chat widget */}
-
         <HireMe />
       </main>
     </>
