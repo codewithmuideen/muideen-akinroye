@@ -41,24 +41,24 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
     >
       <ListIcon reference={ref} />
       <motion.div>
-        <h3
+        <h3 style={{ fontFamily: "'Montserrat', sans-serif" }}
           className="text-2xl font-bold capitalize sm:text-xl xs:text-lg"
-          intial={{ y: 50 }}
+          initial={{ y: 50 }} // corrected typo from intial to initial
           whileInView={{ y: 0 }}
           transition={{ duration: 0.5, type: "spring" }}
         >
           {position}&nbsp;{" "}
-          <a
+          <a style={{ fontFamily: "'Montserrat', sans-serif" }}
             className="capitalize text-primary dark:text-primaryDark"
-            href={"#experience"}
+            href={companyLink} // Now using companyLink to make the company name clickable
           >
             @{company}
           </a>
         </h3>
-        <span className="font-medium capitalize text-dark/75 dark:text-light/75 xs:text-sm">
+        <span style={{ fontFamily: "'Montserrat', sans-serif" }} className="font-medium capitalize text-dark/75 dark:text-light/75 xs:text-sm">
           {time} | {address}
         </span>
-        <p className="w-full font-medium md:text-sm">{work}</p>
+        <p style={{ fontFamily: "'Montserrat', sans-serif" }} className="w-full font-medium md:text-sm">{work}</p>
       </motion.div>
     </li>
   );
@@ -72,7 +72,7 @@ const Experience = () => {
   });
   return (
     <div className="my-64">
-      <h2 className="w-full mb-32 font-bold text-center text-8xl md:text-6xl xs:text-4xl md:mb-16">
+      <h2  style={{ fontFamily: "'Montserrat', sans-serif" }} className="w-full mb-32 font-bold text-center text-8xl md:text-6xl xs:text-4xl md:mb-16">
         Experience
       </h2>
       <div ref={ref} className="w-[75%] mx-auto relative lg:w-[50%] md:w-full">

@@ -13,17 +13,14 @@ const education = [
   {
     id: 2,
     type: "Diploma in Software Engineering",
-    place:
-      "Prime Innovation Institute of Technology",
+    place: "Prime Innovation Institute of Technology",
     time: "Completed in 2015",
     info: "An intermediate-level diploma program focused on the core principles of software engineering. This course provided hands-on experience with programming, software design, development methodologies, and debugging techniques, equipping me with essential skills to build efficient, scalable, and user-friendly software solutions.",
-
   },
   {
     id: 3,
     type: "Diploma in Website Development",
-    place:
-      "Omojowo Web Technology",
+    place: "Omojowo Web Technology",
     time: "Completed in 2017",
     info: "A foundational diploma program in website development, focusing on key web technologies such as HTML, CSS, JavaScript, and web design principles. This course provided the essential skills to create responsive, visually appealing, and functional websites, laying the groundwork for my expertise in web development.",
   },
@@ -35,21 +32,23 @@ const Details = ({ type, time, place, info }) => {
     <li
       ref={ref}
       className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%]"
+      style={{ fontFamily: "'Montserrat', sans-serif" }}
     >
       <ListIcon reference={ref} />
-      <motion.div>
-        <h3
-          className="capitalize font-bold text-2xl sm:text-xl xs:text-lg"
-          intial={{ y: 50 }}
-          whileInView={{ y: 0 }}
-          transition={{ duration: 0.5, type: "spring" }}
-        >
+      <motion.div
+        initial={{ y: 50 }}
+        whileInView={{ y: 0 }}
+        transition={{ duration: 0.5, type: "spring" }}
+      >
+        <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg text-dark dark:text-light">
           {type}
         </h3>
         <span className="capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm">
           {time} | {place}
         </span>
-        <p className="font-medium w-full md:text-sm">{info}</p>
+        <p className="font-medium w-full md:text-sm text-justify text-dark dark:text-light mt-2">
+          {info}
+        </p>
       </motion.div>
     </li>
   );
@@ -61,11 +60,16 @@ const Education = () => {
     target: ref,
     offset: ["start end", "center start"],
   });
+
   return (
-    <div className="my-64">
-      <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
+    <div
+      className="my-64"
+      style={{ fontFamily: "'Montserrat', sans-serif" }}
+    >
+      <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16 text-dark dark:text-light uppercase">
         Education
       </h2>
+
       <div ref={ref} className="w-[75%] mx-auto relative lg:w-[50%] md:w-full">
         <motion.div
           style={{ scaleY: scrollYProgress }}
