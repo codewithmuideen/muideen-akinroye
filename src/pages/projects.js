@@ -174,7 +174,7 @@ const projects = () => {
                 title="Nike Shoes | E-Commerce Website"
                 summary="Nike Shoes | This is a ReactJS project with Tailwind CSS to make a Nike landing page. It will contain all the features required for an online E-commerce store."
                 img={project4}
-                link="https:muideenakinroye.vercel.app/"
+                link="https://customdesignx.com/"
                 github="https://github.com/codewithmuideen"
               />
             </div>
