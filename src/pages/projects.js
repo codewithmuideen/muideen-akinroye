@@ -139,8 +139,8 @@ const projects = () => {
             <div className="col-span-12">
               <FeaturedProjects
                 type="Project"
-                title="RoyeWeb Website"
-                summary="Royeweb is a dynamic company specializing in mobile and web application development, project management, and training services. Our team of experts is dedicated to delivering cutting-edge solutions that drive innovation and efficiency. We offer comprehensive training programs to empower individuals and businesses with the skills needed to thrive in the digital era. At Royeweb, we turn your ideas into reality with precision and excellence. Let Olamitobi build your website and mobile app for you.
+                title="OlamiTobi Technologies Website"
+                summary="OlamiTobi Technologies is a dynamic company specializing in mobile and web application development, project management, and training services. Our team of experts is dedicated to delivering cutting-edge solutions that drive innovation and efficiency. We offer comprehensive training programs to empower individuals and businesses with the skills needed to thrive in the digital era. At OlamiTobi Technologies, we turn your ideas into reality with precision and excellence. Let Olamitobi build your website and mobile app for you.
                 </title>"
                 img={project1}
                 link="https://royeweb.vercel.app/"
