@@ -138,8 +138,8 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProjects
-                type="RoyeWeb Website"
-                title="Corperate website"
+                type="Project"
+                title="RoyeWeb Website"
                 summary="Royeweb is a dynamic company specializing in mobile and web application development, project management, and training services. Our team of experts is dedicated to delivering cutting-edge solutions that drive innovation and efficiency. We offer comprehensive training programs to empower individuals and businesses with the skills needed to thrive in the digital era. At Royeweb, we turn your ideas into reality with precision and excellence. Let Olamitobi build your website and mobile app for you.
                 </title>"
                 img={project1}
@@ -164,7 +164,7 @@ const projects = () => {
                 title="FinCompitium Website"
                 summary="Empowering financial institutions with advanced artificial intelligence to automate decision-making, enhance fraud detection, optimize investment strategies, and deliver personalized financial solutions. FinCompitium integrates predictive analytics, natural language processing, and real-time data insights to revolutionize how finance operates—smarter, faster, and more secure."
                 img={project3}
-               link="https:muideenakinroye.vercel.app/"
+               link="https://fincompitium.com/"
                 github="https://github.com/codewithmuideen"
               />
             </div>
@@ -181,20 +181,20 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Project"
-                title="News 4 U | News Website"
-                summary="News 4 U is the Fastest News Platform which gives to News when you want inspired to build in React JS, Next JS, Typescript and also using NEWS API to get latest news on my website! 📰"
+                title="Ancient Town Website"
+                summary="Discover Ikoyi Town | A Rich Legacy of Tradition, Culture & History - Exploring the Heartbeat of Ikoyi Osun’s Past, Present & Future"
                 img={project5}
-               link="https:muideenakinroye.vercel.app/"
-                github="https://github.com/codewithmuideen"
+               link="https://ikoyiosun.vercel.app/"
+                github="https://github.com/codewithmuideen/ikoyiosun"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Project"
-                title="Blog World | React JS & Typescript"
-                summary="This React JS project, Blog World 🌏, is a notes-taking app where you can write blogs with Markdown, add tags, and search by titles or tags. All entries are saved in local storage and can be edited anytime 🚀"
+                title="WakaForMe Website"
+                summary="Online taxi booking service in Nigeria | Cab Nigeria"
                 img={project6}
-                link="https:muideenakinroye.vercel.app/"
+                link="http://wakaforme.com/"
                 github="https://github.com/codewithmuideen"
               />
             </div>
